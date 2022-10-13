@@ -21,6 +21,10 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        title = "Storm Viewer"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
         // declares a constant called fm which assigns the value FileManager.default which is a built in system that lets us work with the file system
         let fm = FileManager.default
         
